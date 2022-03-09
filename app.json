@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "ufoApp",
+    "slug": "ufoApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
