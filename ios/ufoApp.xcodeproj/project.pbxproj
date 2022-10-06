@@ -14,6 +14,10 @@
 		96905EF65AED1B983A6B3ABC /* libPods-ufoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-ufoApp.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		9CC9361570E241E8850D12BC /* JMH Psychedelic CAPS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8BB085046E742FDB01B4092 /* JMH Psychedelic CAPS.ttf */; };
+		0C5D3E91F19643BF94F653C0 /* PsyFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D33DB608EFE4589ACCB79DF /* PsyFont.ttf */; };
+		BFC7DD0F30434099A135B9D2 /* Belbott0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7B5A9C2C9964886A85A7BB0 /* Belbott0.ttf */; };
+		975EB1E9F4D54B628D5712AB /* BellBottom.Laser.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A254663C36B9432386D14DD7 /* BellBottom.Laser.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ufoApp/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		F8BB085046E742FDB01B4092 /* JMH Psychedelic CAPS.ttf */ = {isa = PBXFileReference; name = "JMH Psychedelic CAPS.ttf"; path = "../assets/fonts/JMH Psychedelic CAPS.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D33DB608EFE4589ACCB79DF /* PsyFont.ttf */ = {isa = PBXFileReference; name = "PsyFont.ttf"; path = "../assets/fonts/PsyFont.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7B5A9C2C9964886A85A7BB0 /* Belbott0.ttf */ = {isa = PBXFileReference; name = "Belbott0.ttf"; path = "../assets/fonts/Belbott0.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A254663C36B9432386D14DD7 /* BellBottom.Laser.ttf */ = {isa = PBXFileReference; name = "BellBottom.Laser.ttf"; path = "../assets/fonts/BellBottom.Laser.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				2701D7B99B634D36B05526FD /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -132,6 +141,18 @@
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
+		};
+		2701D7B99B634D36B05526FD /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				F8BB085046E742FDB01B4092 /* JMH Psychedelic CAPS.ttf */,
+				9D33DB608EFE4589ACCB79DF /* PsyFont.ttf */,
+				A7B5A9C2C9964886A85A7BB0 /* Belbott0.ttf */,
+				A254663C36B9432386D14DD7 /* BellBottom.Laser.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -196,6 +217,10 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				9CC9361570E241E8850D12BC /* JMH Psychedelic CAPS.ttf in Resources */,
+				0C5D3E91F19643BF94F653C0 /* PsyFont.ttf in Resources */,
+				BFC7DD0F30434099A135B9D2 /* Belbott0.ttf in Resources */,
+				975EB1E9F4D54B628D5712AB /* BellBottom.Laser.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
